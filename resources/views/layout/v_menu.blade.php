@@ -31,7 +31,7 @@
         </li>
         <li class="{{ request() -> is('cpl') ? 'active' : '' }}">
             <a href="/cpl">
-                <i class="fa fa-book"></i> <span>CPL cfssd</span>
+                <i class="fa fa-book"></i> <span>CPL</span>
             </a>
         </li>
         <li class="{{ request() -> is('pemetaancpl') ? 'active' : '' }}">
