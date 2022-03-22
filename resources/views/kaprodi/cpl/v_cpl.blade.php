@@ -1,4 +1,4 @@
-@extends('layout.v_template')
+@extends('layout.v_kaprodi')
 
 @section('title', 'Capaian Pembelajaran Lulusan')
 
