@@ -1,80 +1,44 @@
 @extends('layout.v_kaprodi')
 
-@section('title', 'Kurikulum Prodi...')
+@section('title', 'Kurikulum Prodi Teknologi Rekayasa Perangkat')
 
 @section('content')
 <!-- Default box -->
 <div class="box">
-    <div class="box-header">
-        <h3 class="box-title">Data Table With Full Features</h3>
-    </div>
     <!-- /.box-header -->
-    <div class="box-body">
-        <table id="example1" class="table table-bordered table-striped">
-            <thead>
-                <tr>
-                    <th>Rendering engine</th>
-                    <th>Browser</th>
-                    <th>Platform(s)</th>
-                    <th>Engine version</th>
-                    <th>CSS grade</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Gecko</td>
-                    <td>Netscape 7.2</td>
-                    <td>Win 95+ / Mac OS 8.6-9.2</td>
-                    <td>1.7</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>Gecko</td>
-                    <td>Netscape Browser 8</td>
-                    <td>Win 98SE+</td>
-                    <td>1.7</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>Gecko</td>
-                    <td>Netscape Navigator 9</td>
-                    <td>Win 98+ / OSX.2+</td>
-                    <td>1.8</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>Webkit</td>
-                    <td>iPod Touch / iPhone</td>
-                    <td>iPod</td>
-                    <td>420.1</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>Webkit</td>
-                    <td>S60</td>
-                    <td>S60</td>
-                    <td>413</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>KHTML</td>
-                    <td>Konqureror 3.3</td>
-                    <td>KDE 3.3</td>
-                    <td>3.3</td>
-                    <td>A</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <th>Rendering engine</th>
-                    <th>Browser</th>
-                    <th>Platform(s)</th>
-                    <th>Engine version</th>
-                    <th>CSS grade</th>
-                </tr>
-            </tfoot>
-        </table>
-    </div>
+
+    <table id="t_kurikulum" class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Kurikulum</th>
+                <th>Tahun</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php $no = 1; ?>
+            <tr>
+                <td width="50px">{{$no++}}</td>
+                <td width="500px">Kurikulum 2021 MBKM</td>
+                <td width="500px">2021</td>
+                <td><button type="button" class="btn btn-success btn-sm">Aktif</button></td>
+            </tr>
+            <tr>
+                <td>{{$no++}}</td>
+                <td>Kurikulum 2021</td>
+                <td>2021</td>
+                <td><button type="button" class="btn btn-danger btn-sm">Tidak</button></td>
+            </tr>
+            <tr>
+                <td>{{$no++}}</td>
+                <td>Kurikulum 2016</td>
+                <td>2016</td>
+                <td><button type="button" class="btn btn-danger btn-sm">Tidak</button></td>
+            </tr>
+        </tbody>
+    </table>
+
     <!-- /.box-body -->
 </div>
 <!-- /.box -->
