@@ -1,4 +1,4 @@
-@extends('layout.v_kaprodi')
+@extends('layout.v_template')
 
 @section('title', 'Hubungan Profil Lulusan dan Capaian Pembelajaran')
 

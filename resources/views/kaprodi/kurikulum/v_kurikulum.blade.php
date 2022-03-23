@@ -1,4 +1,4 @@
-@extends('layout.v_kaprodi')
+@extends('layout.v_template')
 
 @section('title', 'Kurikulum Prodi Teknologi Rekayasa Perangkat')
 
