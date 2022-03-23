@@ -33,7 +33,7 @@
                 <!-- mini logo for sidebar mini 50x50 pixels -->
                 <span class="logo-mini"><b>UGM</b></span>
                 <!-- logo for regular state and mobile devices -->
-                <span class="logo-lg"><b>E</b>RKPS</span>
+                <span class="logo-lg"><b>SIPENCAR UGM</b></span>
             </a>
             <!-- Header Navbar: style can be found in header.less -->
             <nav class="navbar navbar-static-top">
@@ -60,7 +60,7 @@
                     </div>
                     <div class="pull-left info">
                         <p>Rizal Pradana</p>
-                        <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                        <a href="#"><i class="fa fa-circle text-success"></i>Online</a>
                     </div>
                 </div>
                 @include('layout.v_menu')
@@ -103,8 +103,8 @@
     <!-- Bootstrap 3.3.7 -->
     <script src="{{asset('adminlte')}}/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- DataTables -->
-    <script src="../../bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
-    <script src="../../bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+    <script src="{{asset('adminlte')}}/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="{{asset('adminlte')}}/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
     <!-- SlimScroll -->
     <script src="{{asset('adminlte')}}/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
     <!-- FastClick -->
@@ -120,16 +120,15 @@
     </script>
     <script>
         $(function() {
-            $('#example1').DataTable()
-            $('#example2').DataTable({
+            $('#dataTable').DataTable({
                 'paging': true,
-                'lengthChange': false,
-                'searching': false,
+                'lengthChange': true,
+                'searching': true,
                 'ordering': true,
                 'info': true,
-                'autoWidth': false
-            })
-        })
+                'autoWidth': true
+            });
+        });
     </script>
 </body>
 

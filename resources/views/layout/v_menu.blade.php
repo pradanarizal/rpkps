@@ -3,27 +3,27 @@
     <li class="header">MAIN NAVIGATION</li>
     <li class="{{ request() -> is('/') ? 'active' : '' }}">
         <a href="/">
-            <i class="fa fa-dashboard"></i> <span>Kurikulum</span>
+            <i class="fa fa-list-ul"></i> <span>Kurikulum</span>
         </a>
     </li>
     <li class="{{ request() -> is('profillulusan') ? 'active' : '' }}">
         <a href="/profillulusan">
-            <i class="fa fa-book"></i> <span>Profil Lulusan</span>
+            <i class="fa fa-graduation-cap"></i> <span>Profil Lulusan</span>
         </a>
     </li>
     <li class="{{ request() -> is('pemetaanprofil') ? 'active' : '' }}">
         <a href="/pemetaanprofil">
-            <i class="fa fa-book"></i> <span>Pemetaan Profil Lulusan</span>
+            <i class="fa fa-th"></i> <span>Pemetaan Profil Lulusan</span>
         </a>
     </li>
     <li class="{{ request() -> is('cpl') ? 'active' : '' }}">
         <a href="/cpl">
-            <i class="fa fa-book"></i> <span>CPL</span>
+            <i class="fa fa-file-text"></i> <span>CPL</span>
         </a>
     </li>
     <li class="{{ request() -> is('pemetaancpl') ? 'active' : '' }}">
         <a href="/pemetaancpl">
-            <i class="fa fa-book"></i> <span>Pemetaan CPL</span>
+            <i class="fa fa-th"></i> <span>Pemetaan CPL</span>
         </a>
     </li>
     <li class="{{ request() -> is('matakuliah') ? 'active' : '' }}">
@@ -33,7 +33,7 @@
     </li>
     <li>
         <a href="/matakuliah">
-            <i class="fa fa-book"></i> <span>Keluar</span>
+            <i class="fa fa-gear"></i> <span>Keluar</span>
         </a>
     </li>
     <li class="header">LABELS</li>
