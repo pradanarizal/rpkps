@@ -22,7 +22,7 @@
                             <tr>
                                 <td width="50px">{{$no++}}</td>
                                 <td width="500px">Kurikulum 2021 MBKM</td>
-                                <td width="500px">2021</td>
+                                <td width="400px">2021</td>
                                 <td><span type="button" class="label label-success btn-xs">Aktif</span></td>
                             </tr>
                             <tr>
