@@ -16,7 +16,7 @@
                             <tr>
                                 <th width="30px">No</th>
                                 <th>Profil Lulusan</th>
-                                <th>Platform(s)</th>
+                                <th>Kualifikasi</th>
                             </tr>
                         </thead>
                         <tbody>
