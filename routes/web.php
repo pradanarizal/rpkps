@@ -22,3 +22,4 @@ route::view('/pemetaanprofil', 'kaprodi.pemetaanprofil.v_pemetaanprofil');
 route::view('/cpl', 'kaprodi.cpl.v_cpl');
 route::view('/pemetaancpl', 'kaprodi.pemetaancpl.v_pemetaancpl');
 route::view('/matakuliah', 'kaprodi.matakuliah.v_matakuliah');
+route::view('/dosen', 'akademik.dosen.v_dosen');
