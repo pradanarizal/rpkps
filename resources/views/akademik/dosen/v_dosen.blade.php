@@ -27,10 +27,10 @@
                             <?php $no = 1; ?>
                             <tr>
                                 <td width="50px">{{$no++}}</td>
-                                <td width="100px"></td>
-                                <td width="100px">Muhammad Fakhrurrifqi, S.Kom., M.Cs.</td>
-                                <td width="100px">111198611201202101</td>
-                                <td width="100px">rifqi_ilkom@mail.ugm.ac.id</td>
+                                <td width="200px"></td>
+                                <td width="200px">Muhammad Fakhrurrifqi, S.Kom., M.Cs.</td>
+                                <td width="200px">111198611201202101</td>
+                                <td width="200px">rifqi_ilkom@mail.ugm.ac.id</td>
                                 <td><span type="button" class="label label-warning btn-xs">Edit</span></td>
                             </tr>
                             <tr>

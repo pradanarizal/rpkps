@@ -33,7 +33,22 @@
     </li>
     <li class="{{ request() -> is('dosen') ? 'active' : '' }}">
         <a href="/dosen">
-            <i class="fa fa-file-text"></i> <span>Dosen</span>
+            <i class="fa fa-list-ul"></i> <span>Dosen</span>
+        </a>
+    </li>
+    <li class="{{ request() -> is('kaprodi') ? 'active' : '' }}">
+        <a href="/kaprodi">
+            <i class="fa fa-list-ul"></i> <span>Kaprodi</span>
+        </a>
+    </li>
+    <li class="{{ request() -> is('plottingdosen') ? 'active' : '' }}">
+        <a href="/plottingdosen">
+            <i class="fa fa-list-ul"></i> <span>Plotting Dosen</span>
+        </a>
+    </li>
+    <li class="{{ request() -> is('semester') ? 'active' : '' }}">
+        <a href="/semester">
+            <i class="fa fa-list-ul"></i> <span>Semester</span>
         </a>
     </li>
     <li>
