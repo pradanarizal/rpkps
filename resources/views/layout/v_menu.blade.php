@@ -31,6 +31,11 @@
             <i class="fa fa-book"></i> <span>Mata Kuliah</span>
         </a>
     </li>
+    <li class="{{ request() -> is('dosen') ? 'active' : '' }}">
+        <a href="/dosen">
+            <i class="fa fa-file-text"></i> <span>Dosen</span>
+        </a>
+    </li>
     <li>
         <a href="/matakuliah">
             <i class="fa fa-gear"></i> <span>Keluar</span>
