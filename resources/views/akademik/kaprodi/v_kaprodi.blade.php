@@ -23,7 +23,7 @@
                             <tr>
                                 <td width="50px">{{$no++}}</td>
                                 <td width="200px">Kaprodi Teknologi Rekayasa Instrumentasi Kontrol TA 2021/2022</td>
-                                <td width="200px"></td>
+                                <td width="200px">Hidayat Nur Isnianto, S.T., M.Eng.</td>
                                 <td><span type="button" class="label label-success btn-xs">Aktif</span></td>
                                 <td><span type="button" class="label label-warning btn-xs">Edit</span></td>
                             </tr>
