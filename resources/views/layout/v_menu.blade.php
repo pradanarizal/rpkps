@@ -33,17 +33,17 @@
     </li>
     <li class="{{ request() -> is('dosen') ? 'active' : '' }}">
         <a href="/dosen">
-            <i class="fa fa-list-ul"></i> <span>Dosen</span>
+            <i class="fa fa-users"></i> <span>Dosen</span>
         </a>
     </li>
     <li class="{{ request() -> is('kaprodi') ? 'active' : '' }}">
         <a href="/kaprodi">
-            <i class="fa fa-list-ul"></i> <span>Kaprodi</span>
+            <i class="fa fa-user"></i> <span>Kaprodi</span>
         </a>
     </li>
     <li class="{{ request() -> is('plottingdosen') ? 'active' : '' }}">
         <a href="/plottingdosen">
-            <i class="fa fa-list-ul"></i> <span>Plotting Dosen</span>
+            <i class="fa fa-random"></i> <span>Plotting Dosen</span>
         </a>
     </li>
     <li class="{{ request() -> is('semester') ? 'active' : '' }}">
