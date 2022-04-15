@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\KurikulumController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,9 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('kaprodi.kurikulum.v_kurikulum');
-});
+Route::get('/', [KurikulumController::class, 'index']);
+// Route::get('/', function () {
+//     return view('kaprodi.kurikulum.v_kurikulum');
+// });
 
 route::view('/profillulusan', 'kaprodi.profillulusan.v_profillulusan');
 route::view('/pemetaanprofil', 'kaprodi.pemetaanprofil.v_pemetaanprofil');

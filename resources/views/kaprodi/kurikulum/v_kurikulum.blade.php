@@ -15,32 +15,27 @@
                     <table id="dataTable" class="table table-striped table-body-fixed text-nowrap table-bordered table-hover">
                         <thead>
                             <tr>
-                                <th>No</th>
-                                <th>Kurikulum</th>
-                                <th>Tahun</th>
-                                <th>Status</th>
+                                <th width="20px">No</th>
+                                <th width="400px">Kurikulum</th>
+                                <th width="200px">Tahun</th>
+                                <th width="100px">Status</th>
+                                <th width="100px">Aksi</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php $no = 1; ?>
-                            <tr>
-                                <td width="50px">{{$no++}}</td>
-                                <td width="500px">Kurikulum 2021 MBKM</td>
-                                <td width="400px">2021</td>
-                                <td><span type="button" class="label label-success btn-xs">Aktif</span></td>
-                            </tr>
+                            @foreach ($kaprodi as $data)
                             <tr>
                                 <td>{{$no++}}</td>
-                                <td>Kurikulum 2021</td>
-                                <td>2021</td>
-                                <td><span type="button" class="label label-danger btn-xs">Tidak</span></td>
+                                <td><img src="{{url('gambar/'. $data->foto_kaprodi)}}" width="50px"></td>
+                                <td>{{ $data->nama_kaprodi}}</td>
+                                <td>{{ $data->prodi}}</td>
+                                <td>
+                                    <a href="" class="btn btn-sm btn-success">Aktif</a>
+                                    <a href="" class="btn btn-sm btn-danger">Tidak</a>
+                                </td>
                             </tr>
-                            <tr>
-                                <td>{{$no++}}</td>
-                                <td>Kurikulum 2016</td>
-                                <td>2016</td>
-                                <td><span type="button" class="label label-danger btn-xs">Tidak</span></td>
-                            </tr>
+                            @endforeach
                         </tbody>
                     </table>
                 </div>

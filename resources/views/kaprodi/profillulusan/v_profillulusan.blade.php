@@ -1,6 +1,6 @@
 @extends('layout.v_template')
 
-@section('title', 'Profil Lulusan')
+@section('title', 'Profil Lulusan Prodi Teknologi Rekayasa Perangkat')
 
 @section('content')
 <div class="row">
