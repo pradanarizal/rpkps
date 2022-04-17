@@ -17,16 +17,20 @@ use App\Http\Controllers\KurikulumController;
 // Route::get('/kurikulum', [KurikulumController::class, 'index']);
 // Route::get('/kurikulum/add', [KurikulumController::class, 'add']);
 // Route::post('/kurikulum/insert', [KurikulumController::class, 'insert']);
+
+// Kaprodi
 Route::get('/', function () {
     return view('kaprodi.kurikulum.v_kurikulum');
 });
-
 route::view('/profillulusan', 'kaprodi.profillulusan.v_profillulusan');
 route::view('/pemetaanprofil', 'kaprodi.pemetaanprofil.v_pemetaanprofil');
 route::view('/cpl', 'kaprodi.cpl.v_cpl');
 route::view('/pemetaancpl', 'kaprodi.pemetaancpl.v_pemetaancpl');
 route::view('/matakuliah', 'kaprodi.matakuliah.v_matakuliah');
+// Akademik
 route::view('/dosen', 'akademik.dosen.v_dosen');
 route::view('/kaprodi', 'akademik.kaprodi.v_kaprodi');
 route::view('/plottingdosen', 'akademik.plottingdosen.v_plottingdosen');
 route::view('/semester', 'akademik.semester.v_semester');
+// Dosen
+route::view('/rpkps', 'dosen.rpkps.v_rpkps');

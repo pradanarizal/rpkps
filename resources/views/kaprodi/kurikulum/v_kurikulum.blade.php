@@ -3,14 +3,15 @@
 @section('title', 'Kurikulum Prodi Teknologi Rekayasa Perangkat')
 
 @section('content')
-<!-- dea -->
 <div class="row">
     <div class="col-xs-12">
         <div class="box">
             <div class="box-header">
-                <a href="/kurikulum/add" class="btn btn-primary">Tambah Kurikulum</a><br>
-                <!-- <button type="button" class="btn btn-primary">
-                    <i class="fa fa-add"></i><span>Mata Kuliah</span></button> -->
+                <a href="/kurikulum/add">
+                    <button type="button" class="btn" style="background-color: #007BFF; color: white;">
+                        <i class="fa fa-plus-square" style="margin-right:10px;"></i><span>Tambah Kurikulum</span>
+                    </button>
+                </a>
             </div>
             <div class="box-body ">
                 <div class="card-body table-responsive p-0" style="height: responsive;">
@@ -25,7 +26,21 @@
                             </tr>
                         </thead>
                         <tbody>
-
+                            <?php $no = 1; ?>
+                            <tr>
+                                <td>{{$no++}}</td>
+                                <td>Kurikulum MBKM 2021</td>
+                                <td>2021</td>
+                                <td><span type="button" class="label label-success btn-xs">Aktif</span></td>
+                                <td><span type="button" class="label label-warning btn-xs">Edit</span></td>
+                            </tr>
+                            <tr>
+                                <td>{{$no++}}</td>
+                                <td>Kurikulum 2021</td>
+                                <td>2021</td>
+                                <td><span type="button" class="label label-danger btn-xs">Tidak</span></td>
+                                <td><span type="button" class="label label-warning btn-xs">Edit</span></td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>

@@ -51,6 +51,11 @@
             <i class="fa fa-list-ul"></i> <span>Semester</span>
         </a>
     </li>
+    <li class="{{ request() -> is('rpkps') ? 'active' : '' }}">
+        <a href="/rpkps">
+            <i class="fa fa-list-ul"></i> <span>RPKPS</span>
+        </a>
+    </li>
     <li>
         <a href="/matakuliah">
             <i class="fa fa-gear"></i> <span>Keluar</span>
