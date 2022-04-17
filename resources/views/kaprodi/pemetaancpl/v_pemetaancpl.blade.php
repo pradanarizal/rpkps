@@ -6,9 +6,13 @@
 <div class="row">
     <div class="col-xs-12">
         <div class="box">
-            <!-- <div class="box-header">
-                <h3 class="box-title">Data Mata Kuliah</h3>
-            </div> -->
+            <div class="box-header">
+                <a href="/kurikulum/add">
+                    <button type="button" class="btn btn-warning">
+                        <i class="fa fa-print" style="margin-right:10px;"></i><span>Cetak Data</span>
+                    </button>
+                </a>
+            </div>
             <div class="box-body ">
                 <div class="card-body table-responsive p-0">
                     <table class="table table-striped text-nowrap table-bordered table-hover">
