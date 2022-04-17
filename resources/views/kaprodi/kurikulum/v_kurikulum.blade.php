@@ -3,6 +3,7 @@
 @section('title', 'Kurikulum Prodi Teknologi Rekayasa Perangkat')
 
 @section('content')
+<!-- dea -->
 <div class="row">
     <div class="col-xs-12">
         <div class="box">
