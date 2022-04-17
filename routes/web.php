@@ -13,10 +13,13 @@ use App\Http\Controllers\KurikulumController;
 |
 */
 
-Route::get('/', [KurikulumController::class, 'index']);
-// Route::get('/', function () {
-//     return view('kaprodi.kurikulum.v_kurikulum');
-// });
+// Route::get('/', [KurikulumController::class, 'index']);
+// Route::get('/kurikulum', [KurikulumController::class, 'index']);
+// Route::get('/kurikulum/add', [KurikulumController::class, 'add']);
+// Route::post('/kurikulum/insert', [KurikulumController::class, 'insert']);
+Route::get('/', function () {
+    return view('kaprodi.kurikulum.v_kurikulum');
+});
 
 route::view('/profillulusan', 'kaprodi.profillulusan.v_profillulusan');
 route::view('/pemetaanprofil', 'kaprodi.pemetaanprofil.v_pemetaanprofil');

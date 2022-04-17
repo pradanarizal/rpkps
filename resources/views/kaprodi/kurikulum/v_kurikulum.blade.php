@@ -6,10 +6,11 @@
 <div class="row">
     <div class="col-xs-12">
         <div class="box">
-            <!-- <div class="box-header">
-                <button type="button" class="btn btn-primary">
-                    <i class="fa fa-book"></i><span>Mata Kuliah</span></button>
-            </div> -->
+            <div class="box-header">
+                <a href="/kurikulum/add" class="btn btn-primary">Tambah Kurikulum</a><br>
+                <!-- <button type="button" class="btn btn-primary">
+                    <i class="fa fa-add"></i><span>Mata Kuliah</span></button> -->
+            </div>
             <div class="box-body ">
                 <div class="card-body table-responsive p-0" style="height: responsive;">
                     <table id="dataTable" class="table table-striped table-body-fixed text-nowrap table-bordered table-hover">
@@ -23,19 +24,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <?php $no = 1; ?>
-                            @foreach ($kaprodi as $data)
-                            <tr>
-                                <td>{{$no++}}</td>
-                                <td><img src="{{url('gambar/'. $data->foto_kaprodi)}}" width="50px"></td>
-                                <td>{{ $data->nama_kaprodi}}</td>
-                                <td>{{ $data->prodi}}</td>
-                                <td>
-                                    <a href="" class="btn btn-sm btn-success">Aktif</a>
-                                    <a href="" class="btn btn-sm btn-danger">Tidak</a>
-                                </td>
-                            </tr>
-                            @endforeach
+
                         </tbody>
                     </table>
                 </div>
