@@ -26,3 +26,7 @@ route::view('/dosen', 'akademik.dosen.v_dosen');
 route::view('/kaprodi', 'akademik.kaprodi.v_kaprodi');
 route::view('/plottingdosen', 'akademik.plottingdosen.v_plottingdosen');
 route::view('/semester', 'akademik.semester.v_semester');
+
+//route mahasiswa
+route::view('/pelaksanaanPerkuliahan', 'mahasiswa.v_pelaksanaanPerkuliahan');
+route::view('/pelaksanaanMingguan', 'mahasiswa.v_perkuliahanMingguan');

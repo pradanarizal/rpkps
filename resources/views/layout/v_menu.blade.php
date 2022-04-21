@@ -51,6 +51,11 @@
             <i class="fa fa-list-ul"></i> <span>Semester</span>
         </a>
     </li>
+    <li class="{{ request() -> is('pelaksanaanPerkuliahan') ? 'active' : '' }}">
+        <a href="/pelaksanaanPerkuliahan">
+            <i class="px-nav-icon fa fa-calendar"></i> <span>Perkuliahan</span>
+        </a>
+    </li>
     <li>
         <a href="/matakuliah">
             <i class="fa fa-gear"></i> <span>Keluar</span>
