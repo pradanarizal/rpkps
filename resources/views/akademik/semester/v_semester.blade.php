@@ -6,6 +6,13 @@
 <div class="row">
     <div class="col-xs-12">
         <div class="box">
+            <div class="box-header">
+                <a href="/semester/add">
+                    <button type="button" class="btn" style="background-color: #007BFF; color: white;">
+                        <i class="fa fa-plus-square" style="margin-right:10px;"></i><span>Tambah Semester</span>
+                    </button>
+                </a>
+            </div>
             <div class="box-body ">
                 <div class="card-body table-responsive p-0" style="height: responsive;">
                     <table id="dataTable" class="table table-striped table-body-fixed text-nowrap table-bordered table-hover">
@@ -27,7 +34,15 @@
                                 <td width="200px">2 Februari 2022</td>
                                 <td width="200px">31 Juli 2022</td>
                                 <td><span type="button" class="label label-success btn-xs">Ya</span></td>
-                                <td width="200px"></td>
+                                <td>
+                                    <div class="box-header">
+                                        <a href="/semester/add">
+                                            <button type="button" class="btn btn-xs" style="background-color: #007BFF; color: white;">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>{{$no++}}</td>
@@ -35,7 +50,15 @@
                                 <td>1 Agustus 2021</td>
                                 <td>31 Januari 2022</td>
                                 <td><span type="button" class="label label-danger btn-xs">Tidak</span></td>
-                                <td></td>
+                                <td>
+                                    <div class="box-header">
+                                        <a href="/semester/add">
+                                            <button type="button" class="btn btn-xs" style="background-color: #007BFF; color: white;">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>{{$no++}}</td>
@@ -43,7 +66,15 @@
                                 <td>14 Februari 2022</td>
                                 <td>31 Oktober 2022</td>
                                 <td><span type="button" class="label label-danger btn-xs">Tidak</span></td>
-                                <td></td>
+                                <td>
+                                    <div class="box-header">
+                                        <a href="/semester/add">
+                                            <button type="button" class="btn btn-xs" style="background-color: #007BFF; color: white;">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>{{$no++}}</td>
@@ -51,7 +82,15 @@
                                 <td>4 Januari 2021</td>
                                 <td>30 Juli 2021</td>
                                 <td><span type="button" class="label label-danger btn-xs">Tidak</span></td>
-                                <td></td>
+                                <td>
+                                    <div class="box-header">
+                                        <a href="/semester/add">
+                                            <button type="button" class="btn btn-xs" style="background-color: #007BFF; color: white;">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>{{$no++}}</td>
@@ -59,7 +98,15 @@
                                 <td>1 Juli 2020</td>
                                 <td>31 Januari 2021</td>
                                 <td><span type="button" class="label label-danger btn-xs">Tidak</span></td>
-                                <td></td>
+                                <td>
+                                    <div class="box-header">
+                                        <a href="/semester/add">
+                                            <button type="button" class="btn btn-xs" style="background-color: #007BFF; color: white;">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>{{$no++}}</td>
@@ -67,7 +114,15 @@
                                 <td>2 Januari 2020</td>
                                 <td>31 Juli 2020</td>
                                 <td><span type="button" class="label label-danger btn-xs">Tidak</span></td>
-                                <td></td>
+                                <td>
+                                    <div class="box-header">
+                                        <a href="/semester/add">
+                                            <button type="button" class="btn btn-xs" style="background-color: #007BFF; color: white;">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>{{$no++}}</td>
@@ -75,7 +130,15 @@
                                 <td>1 Juli 2019</td>
                                 <td>31 Januari 2020</td>
                                 <td><span type="button" class="label label-danger btn-xs">Tidak</span></td>
-                                <td></td>
+                                <td>
+                                    <div class="box-header">
+                                        <a href="/semester/add">
+                                            <button type="button" class="btn btn-xs" style="background-color: #007BFF; color: white;">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>{{$no++}}</td>
@@ -83,7 +146,15 @@
                                 <td>1 Januari 2019</td>
                                 <td>31 Juli 2019</td>
                                 <td><span type="button" class="label label-danger btn-xs">Tidak</span></td>
-                                <td width="200px"></td>
+                                <td>
+                                    <div class="box-header">
+                                        <a href="/semester/add">
+                                            <button type="button" class="btn btn-xs" style="background-color: #007BFF; color: white;">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>{{$no++}}</td>
@@ -91,7 +162,15 @@
                                 <td>6 Agustus 2018</td>
                                 <td>31 Januari 2019</td>
                                 <td><span type="button" class="label label-danger btn-xs">Tidak</span></td>
-                                <td></td>
+                                <td>
+                                    <div class="box-header">
+                                        <a href="/semester/add">
+                                            <button type="button" class="btn btn-xs" style="background-color: #007BFF; color: white;">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>{{$no++}}</td>
@@ -99,7 +178,15 @@
                                 <td>2 Januari 2018</td>
                                 <td>31 Juli 2018</td>
                                 <td><span type="button" class="label label-danger btn-xs">Tidak</span></td>
-                                <td></td>
+                                <td>
+                                    <div class="box-header">
+                                        <a href="/semester/add">
+                                            <button type="button" class="btn btn-xs" style="background-color: #007BFF; color: white;">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
