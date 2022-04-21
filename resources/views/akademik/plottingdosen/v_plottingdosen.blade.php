@@ -6,6 +6,9 @@
 <div class="row">
     <div class="col-xs-12">
         <div class="box">
+            <div class="box-header">
+                <h3 class="box-title">Semester Gasal 2021/2022</h3>
+            </div>
             <div class="box-body ">
                 <div class="card-body table-responsive p-0" style="height: responsive;">
                     <table id="dataTable" class="table table-striped table-body-fixed text-nowrap table-bordered table-hover">
@@ -29,7 +32,7 @@
                                 <td width="200px">PL1AB</td>
                                 <td width="200px">2</td>
                                 <td width="200px"></td>
-                                <td width="200px"></td>
+                                <td><span type="button" class="label label-primary btn-xs">Tambah Dosen</span></td>
                             </tr>
                             <tr>
                                 <td>{{$no++}}</td>
@@ -38,7 +41,7 @@
                                 <td>PL1AB</td>
                                 <td>2</td>
                                 <td></td>
-                                <td></td>
+                                <td><span type="button" class="label label-primary btn-xs">Tambah Dosen</span></td>
                             </tr>
                             <tr>
                                 <td>{{$no++}}</td>
@@ -47,7 +50,7 @@
                                 <td>PL1AB</td>
                                 <td>2</td>
                                 <td></td>
-                                <td></td>
+                                <td><span type="button" class="label label-primary btn-xs">Tambah Dosen</span></td>
                             </tr>
                             <tr>
                                 <td>{{$no++}}</td>
@@ -56,7 +59,7 @@
                                 <td>PL1AB</td>
                                 <td>2</td>
                                 <td></td>
-                                <td></td>
+                                <td><span type="button" class="label label-primary btn-xs">Tambah Dosen</span></td>
                             </tr>
                             <tr>
                                 <td>{{$no++}}</td>
@@ -65,7 +68,7 @@
                                 <td>PL1AA, PL1BB</td>
                                 <td>2</td>
                                 <td></td>
-                                <td></td>
+                                <td><span type="button" class="label label-primary btn-xs">Tambah Dosen</span></td>
                             </tr>
                             <tr>
                                 <td>{{$no++}}</td>
@@ -74,7 +77,7 @@
                                 <td>PL1AA, PL1BB</td>
                                 <td>2</td>
                                 <td>Muhammad Fakhrurrifqi, S.Kom., M.Cs.</td>
-                                <td></td>
+                                <td><span type="button" class="label label-primary btn-xs">Tambah Dosen</span></td>
                             </tr>
                             <tr>
                                 <td>{{$no++}}</td>
@@ -83,7 +86,7 @@
                                 <td>PL1AB</td>
                                 <td>2</td>
                                 <td>Muhammad Fakhrurrifqi, S.Kom., M.Cs.</td>
-                                <td></td>
+                                <td><span type="button" class="label label-primary btn-xs">Tambah Dosen</span></td>
                             </tr>
                             <tr>
                                 <td>{{$no++}}</td>
@@ -92,7 +95,7 @@
                                 <td>PL1AB</td>
                                 <td>2</td>
                                 <td></td>
-                                <td></td>
+                                <td><span type="button" class="label label-primary btn-xs">Tambah Dosen</span></td>
                             </tr>
                             <tr>
                                 <td>{{$no++}}</td>
@@ -101,9 +104,15 @@
                                 <td>PL1AA, PL1BB</td>
                                 <td>2</td>
                                 <td>Yusron Fuadi, S,Sn., M.Sn.</td>
-                                <td></td>
+                                <td><span type="button" class="label label-primary btn-xs">Tambah Dosen</span></td>
                             </tr>
                         </tbody>
+                        <tfoot>
+                            <tr>
+                                <th colspan="4" style="vertical-align: middle; text-align: center;">Jumlah</th>
+                                <th>18</th>
+                            </tr>
+                        </tfoot>
                     </table>
                 </div>
             </div>
