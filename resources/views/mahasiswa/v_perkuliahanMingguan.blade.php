@@ -7,8 +7,9 @@
     <div class="col-xs-12">
         <div class="box">
             <div class="box-header with-border">
-                <div class="row form-group">
-                    <label class="col-sm-4 control-label">SVPL214402 Proyek Aplikasi Dasar 2</label>
+                <div>
+                    <h4><b>SVPL214402 Proyek Aplikasi Dasar 2</b></h4>
+                    <label class="control-label">Dosen :</label><span> Divi Galih Prasetyo Putri, S.Kom., M.Kom. </span>
                 </div>
             </div>
             <div class="box-body">

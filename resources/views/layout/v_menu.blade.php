@@ -53,12 +53,28 @@
     </li>
     <li class="{{ request() -> is('pelaksanaanPerkuliahan') ? 'active' : '' }}">
         <a href="/pelaksanaanPerkuliahan">
-            <i class="px-nav-icon fa fa-calendar"></i> <span>Perkuliahan</span>
+            <i class="px-nav-icon fa fa-calendar"></i> <span>Perkuliahan (mhs)</span>
+        </a>
+    </li>
     <li class="{{ request() -> is('rpkps') ? 'active' : '' }}">
         <a href="/rpkps">
             <i class="fa fa-list-ul"></i> <span>RPKPS</span>
         </a>
     </li>
+
+    <li class="{{ request()->is('pelaksanaankuliah', 'laporan') ? 'active treeview' : 'treeview' }} " style="height: auto;">
+        <a href="#">
+            <i class="px-nav-icon fa fa-calendar"></i> <span>Perkuliahan (dosen)</span>
+            <span class="pull-right-container">
+        <i class="fa fa-angle-left pull-right"></i>
+            </span>
+        </a>
+        <ul class="treeview-menu" style="">
+            <li class="{{ request() -> is('pelaksanaankuliah') ? 'active' : '' }}"><a href="/pelaksanaankuliah"><i class="fa fa-circle-o"></i>Pelaksanaan</a></li>
+            <li class="{{ request() -> is('laporan') ? 'active' : '' }}"><a href="/laporan"><i class="fa fa-circle-o"></i>Laporan</a></li>
+        </ul>
+    </li>
+
     <li>
         <a href="/matakuliah">
             <i class="fa fa-gear"></i> <span>Keluar</span>
