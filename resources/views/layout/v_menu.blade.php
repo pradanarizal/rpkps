@@ -41,15 +41,44 @@
             <i class="fa fa-user"></i> <span>Kaprodi</span>
         </a>
     </li>
-    <li class="{{ request() -> is('plottingdosen') ? 'active' : '' }}">
-        <a href="/plottingdosen">
-            <i class="fa fa-random"></i> <span>Plotting Dosen</span>
+    <li class="{{ request()->is('semestergasal', 'semestergenap') ? 'active treeview' : 'treeview' }} " style="height: auto;">
+        <a href="#">
+            <i class="px-nav-icon fa fa-random"></i> <span>Plotting Dosen</span>
+            <span class="pull-right-container">
+        <i class="fa fa-angle-left pull-right"></i>
+            </span>
         </a>
+        <ul class="treeview-menu" style="">
+            <li class="{{ request() -> is('semestergasal') ? 'active' : '' }}"><a href="/semestergasal"><i class="fa fa-circle-o"></i>Semester Gasal</a></li>
+            <li class="{{ request() -> is('semestergenap') ? 'active' : '' }}"><a href="/semestergenap"><i class="fa fa-circle-o"></i>Semester Genap</a></li>
+        </ul>
     </li>
     <li class="{{ request() -> is('semester') ? 'active' : '' }}">
         <a href="/semester">
             <i class="fa fa-list-ul"></i> <span>Semester</span>
         </a>
+    </li>
+    <li class="{{ request() -> is('pelaksanaanPerkuliahan') ? 'active' : '' }}">
+        <a href="/pelaksanaanPerkuliahan">
+            <i class="px-nav-icon fa fa-calendar"></i> <span>Perkuliahan (mhs)</span>
+        </a>
+    </li>
+    <li class="{{ request() -> is('rpkps') ? 'active' : '' }}">
+        <a href="/rpkps">
+            <i class="fa fa-list-ul"></i> <span>RPKPS</span>
+        </a>
+    </li>
+    <li class="{{ request()->is('pelaksanaankuliah', 'laporan') ? 'active treeview' : 'treeview' }} " style="height: auto;">
+        <a href="#">
+            <i class="px-nav-icon fa fa-calendar"></i> <span>Perkuliahan (dosen)</span>
+            <span class="pull-right-container">
+        <i class="fa fa-angle-left pull-right"></i>
+            </span>
+        </a>
+        <ul class="treeview-menu" style="">
+            <li class="{{ request() -> is('pelaksanaankuliah') ? 'active' : '' }}"><a href="/pelaksanaankuliah"><i class="fa fa-circle-o"></i>Pelaksanaan</a></li>
+            <li class="{{ request() -> is('laporan') ? 'active' : '' }}"><a href="/laporan"><i class="fa fa-circle-o"></i>Laporan</a></li>
+        </ul>
     </li>
     <li>
         <a href="/matakuliah">
