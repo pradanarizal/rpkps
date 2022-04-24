@@ -36,7 +36,7 @@
                                 <td><span type="button" class="label label-success btn-xs">Ya</span></td>
                                 <td>
                                     <div class="box-header">
-                                        <a href="/semester/add">
+                                        <a href="/mkditawarkan">
                                             <button type="button" class="btn btn-xs" style="background-color: #007BFF; color: white;">
                                                 <i class="fa fa-arrow-right"></i>
                                             </button>
@@ -97,86 +97,6 @@
                                 <td>Semester Gasal 2020/2021</td>
                                 <td>1 Juli 2020</td>
                                 <td>31 Januari 2021</td>
-                                <td><span type="button" class="label label-danger btn-xs">Tidak</span></td>
-                                <td>
-                                    <div class="box-header">
-                                        <a href="/semester/add">
-                                            <button type="button" class="btn btn-xs" style="background-color: #007BFF; color: white;">
-                                                <i class="fa fa-arrow-right"></i>
-                                            </button>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>{{$no++}}</td>
-                                <td>Semester Genap 2019/2020</td>
-                                <td>2 Januari 2020</td>
-                                <td>31 Juli 2020</td>
-                                <td><span type="button" class="label label-danger btn-xs">Tidak</span></td>
-                                <td>
-                                    <div class="box-header">
-                                        <a href="/semester/add">
-                                            <button type="button" class="btn btn-xs" style="background-color: #007BFF; color: white;">
-                                                <i class="fa fa-arrow-right"></i>
-                                            </button>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>{{$no++}}</td>
-                                <td>Semester Gasal 2019/2020</td>
-                                <td>1 Juli 2019</td>
-                                <td>31 Januari 2020</td>
-                                <td><span type="button" class="label label-danger btn-xs">Tidak</span></td>
-                                <td>
-                                    <div class="box-header">
-                                        <a href="/semester/add">
-                                            <button type="button" class="btn btn-xs" style="background-color: #007BFF; color: white;">
-                                                <i class="fa fa-arrow-right"></i>
-                                            </button>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>{{$no++}}</td>
-                                <td width="200px">Semester Genap 2018/2019</td>
-                                <td>1 Januari 2019</td>
-                                <td>31 Juli 2019</td>
-                                <td><span type="button" class="label label-danger btn-xs">Tidak</span></td>
-                                <td>
-                                    <div class="box-header">
-                                        <a href="/semester/add">
-                                            <button type="button" class="btn btn-xs" style="background-color: #007BFF; color: white;">
-                                                <i class="fa fa-arrow-right"></i>
-                                            </button>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>{{$no++}}</td>
-                                <td>Semester Gasal 2018/2019</td>
-                                <td>6 Agustus 2018</td>
-                                <td>31 Januari 2019</td>
-                                <td><span type="button" class="label label-danger btn-xs">Tidak</span></td>
-                                <td>
-                                    <div class="box-header">
-                                        <a href="/semester/add">
-                                            <button type="button" class="btn btn-xs" style="background-color: #007BFF; color: white;">
-                                                <i class="fa fa-arrow-right"></i>
-                                            </button>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>{{$no++}}</td>
-                                <td>Semester Genap 2017/2018</td>
-                                <td>2 Januari 2018</td>
-                                <td>31 Juli 2018</td>
                                 <td><span type="button" class="label label-danger btn-xs">Tidak</span></td>
                                 <td>
                                     <div class="box-header">
